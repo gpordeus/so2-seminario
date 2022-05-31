@@ -1,0 +1,7 @@
+target extended-remote localhost:1235
+set arch riscv:rv64
+
+add-inferior
+inferior 2
+attach 2
+set schedule-multiple on
